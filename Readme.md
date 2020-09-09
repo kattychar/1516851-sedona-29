@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Катерина Чарухина](https://up.htmlacademy.ru/htmlcss/29/user/1516851).
-* Наставник: `[Александр Григорьев](https://vk.com/gr_alexander)`.
+* Наставник: `[Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml)`.
 
 ---
 
