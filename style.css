@@ -1,14 +1,160 @@
-.feature1{
-    float:right;
+body {
+background: #888888;
+
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+/* welcome */
+.welcome{
+  position: absolute;
+width: 456.65px;
+height: 350.88px;
+left: 411.38px;
+top: 132.35px;  
 }
-.fa-youtube {
-    background: #3B5998;
-    color: black;
+/* background photo */
+
+.bground{
+  position: absolute;
+width: 1200px;
+height: 509px;
+left: 40px;
+top: 55px;
+}
+
+
+/* Shape */
+.Shape{
+   
+position: absolute;
+width: 1200px;
+height: 57px;
+left: 40px;
+top: 453px;
+
+background: #FFFFFF; 
+}
+/* white back */
+header main{
+  position: absolute;
+width: 1200px;
+height: 2762px;
+left: 40px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+}
+
+/* top menu */
+.main-nav{
+  position: absolute;
+width: 1200px;
+height: 70px;
+left: 40px;
+top: 0px;
+}
+
+/* Rectangle */
+
+.style-list{
+  position: absolute;
+width: 1200px;
+height: 56px;
+left: 40px;
+top: 0px;
+
+background: #FFFFFF;
+}
+
+/* Информация */
+
+.site-item-1{
+  position: absolute;
+width: 94px;
+height: 26px;
+left: 112px;
+top: 15px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+/* Фото и видео */
+.site-item-2{
+  position: absolute;
+width: 98px;
+height: 26px;
+left: 340px;
+top: 15px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+/* Карта штата */
+.site-item-3{
+  position: absolute;
+width: 85px;
+height: 26px;
+left: 856px;
+top: 15px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+/* Гостиницы */
+
+.site-item-4{
+position: absolute;
+width: 80px;
+height: 26px;
+left: 1088px;
+top: 15px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
 }
