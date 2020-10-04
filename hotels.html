@@ -8,7 +8,8 @@
 
     <header class="main-header">
       <div class="logo">
-        <a href="index.html"><img src ="img/logo.svg" alt="logo"></a>
+       <span class="visually-hidden">На главную</span>
+       <a href="index.html"><img src ="img/logo.svg" alt="logo"></a>
       </div>
       <nav class="main-nav">
         <ul class="site-list">
@@ -22,7 +23,7 @@
             <a class="link" href="#">Карта штата</a>
           </li>
           <li class="site-item">
-            <a class="link" href="hotels.html">Гостиницы</a>
+            <a class="link brown" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
        </nav>
@@ -57,43 +58,49 @@
     </div>
 
     <section class="apartaments">
-      <h3 class="visually-hidden">Результаты поиска</h3>
-        <article class="hotel">Amara Resort & SPA
-          <aside><img src="img\Layer 21.png" width="135" height="90"> </aside>
-            <ul class="apartaments-list">
-             <li class="apartaments-item">
-               <p class="apartaments-info">Гостиница</p>
-               <p class="apartaments-info">От 4000 Р.</p>
-              </li>
-            </ul>
-            <a href="#" class="link-more">Подробнее</a>
-            <a href="#" class="link-deal">Забронировать</a>
-        </article>
-        <article class="hotel">Desert Quail INN
-            <aside><img src="img\Layer 89 copy.png" width="135" height="90"> </aside>
-              <ul class="apartaments-list">
-                <li class="apartaments-item">
-                 <p class="apartaments-info">Мотель</p> 
-                 <p class="apartaments-info">От 3000 Р.</p>
-                </li>
-              </ul>
-                <a href="#" class="link-more">Подробнее</a>
-                <a href="#" class="link-deal">Забронировать</a>
-        </article>
-        <article class="hotel">Villas at Poco Diablo
-            <aside><img src="img\Rectangle.png"  width="135" height="90"> </aside>
-              <ul class="apartaments-list">
-                <li class="apartaments-item">
-                 <p class="apartaments-info">Апартаменты</p> 
-                 <p class="apartaments-info">От 2000 Р. </p>
-                </li>
-              </ul>
-               <a href="#" class="link-more">Подробнее</a>
-               <a href="#" class="link-deal">Забронировать</a>
+      <h2 class="visually-hidden">Результаты поиска</h2>
+      <ul class="apartaments-list">
+        <li class="apartaments-item">
+          <article class="hotel-card">
+            <h3 class="title"> Amara Resort & SPA </h3>
+            <img class="photo" src="img\Amara.png" width="135" height="90"> 
+            <p class="category">Гостиница</p>
+            <p class="level"><span class="visually-hidden">Гостиница 4 звезды</span></p>
+            <p class="rating">Рейтинг: 8.5</p> 
+            <p class="price">От 4000 Р.</p>
+            <a href="#" class="btn-more">Подробнее</a>
+            <a href="#" class="btn-book">Забронировать</a>
           </article>
+        </li>
+        <li class="apartaments-item">
+          <article class="hotel-card">
+            <h3 class="title"> Desert Quail INN </h3>
+            <img src="img\HotelDesert.png" width="135" height="90"> 
+            <p class="category">Мотель</p>
+            <p class="level"><span class="visually-hidden">Гостиница 3 звезды</span></p>
+            <p class="rating">Рейтинг: 8.9</p> 
+            <p class="price">От 3000 Р.</p>
+            <a href="#" class="btn-more">Подробнее</a>
+            <a href="#" class="btn-book">Забронировать</a>
+          </article>
+        </li>
+        <li class="apartaments-item">
+          <article class="hotel-card">
+            <h3 class="title"> Villas at Poco Diablo</h3>
+            <img src="img\HotelDiablo.png"  width="135" height="90"> 
+            <p class="category">Апартаменты</p>
+            <p class="level"><span class="visually-hidden">Гостиница 2 звезды</span></p>
+            <p class="rating">Рейтинг: 9.2</p> 
+            <p class="price">От 2000 Р.</p>
+            <a href="#" class="btn-more">Подробнее</a>
+            <a href="#" class="btn-book">Забронировать</a>
+          </article>
+        </li>
+      </ul>
     </section>
     
     </main>
+
     <footer  class="main-footer">
       <p class = "hash">
         #visitsedona
