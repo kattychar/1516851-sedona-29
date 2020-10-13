@@ -26,6 +26,8 @@
                 <a class="link" href="#">Фото и видео</a>
               </li>
               <li class="site-item">
+              </li>
+              <li class="site-item">
                 <a class="link" href="#">Карта штата</a>
               </li>
               <li class="site-item">
@@ -38,42 +40,51 @@
         <main>
           <div class="checkbox">
             <!--здесь будут чекбоксы и фильтр-->
+            <img src="img/background-hotels.jpg" alt="checkbox">
           </div>
           <div class="sort">
               <p class="sort-found">Найдено:3</p>
               <p class="sort-title">Сортировка:</p>
               <ul class="sort-list type-1">
                 <li class="sort-item">
-                  <a href="#">По цене</a>
+                  <a href="#" class="link-price">По цене</a>
                 </li>
                 <li class="sort-item">
-                  <a href="#">По типу</a>
+                  <a href="#" class="link-sort">По типу</a>
                 </li>
                 <li class="sort-item">
-                  <a href="#">По рейтингу</a>
+                  <a href="#" class="link-sort">По рейтингу</a>
                 </li>
               </ul>
               <ul class="sort-list type-2">
                 <li class="sort-item active">
-                  <a href="#">По цене</a>
+                  <a href="#" class=" up-sort">
+                    <img src="img/up.svg">
+                    <span class="visually-hidden">По возрастанию</span>
+                  </a>
                 </li>
                 <li class="sort-item active">
-                  <a href="#">По типу</a>
-                </li>
-                <li class="sort-item active">
-                  <a href="#">По рейтингу</a>
+                  <a href="#" class="down-sort">
+                    <img src="img/down.svg">
+                    <span class="visually-hidden">По убыванию</span>
+                  </a>
+                  </a>
                 </li>
               </ul>
           </div>
 
           <section class="apartaments">
             <h2 class="visually-hidden">Результаты поиска</h2>
+            <img src="img/Rectangle.svg">
             <ul class="apartaments-list">
               <li class="apartaments-item">
                 <article class="hotel-card">
                   <h3 class="title"> Amara Resort & SPA </h3>
                   <img class="photo" src="img\Amara.png" width="135" height="90"> 
                   <p class="category">Гостиница</p>
+                  <div class= "star4">
+                  <img src="img/star.svg">
+                  </div>
                   <p class="level"><span class="visually-hidden">Гостиница 4 звезды</span></p>
                   <p class="rating">Рейтинг: 8.5</p> 
                   <p class="price">От 4000 Р.</p>
@@ -82,10 +93,14 @@
                 </article>
               </li>
               <li class="apartaments-item">
+                <img src="img/Rectangle.svg">
                 <article class="hotel-card">
                   <h3 class="title"> Desert Quail INN </h3>
                   <img src="img\HotelDesert.png" width="135" height="90"> 
                   <p class="category">Мотель</p>
+                  <div class= "star3">
+                  <img src="../img/star.svg">
+                  </div>
                   <p class="level"><span class="visually-hidden">Гостиница 3 звезды</span></p>
                   <p class="rating">Рейтинг: 8.9</p> 
                   <p class="price">От 3000 Р.</p>
@@ -94,10 +109,14 @@
                 </article>
               </li>
               <li class="apartaments-item">
+                <img src="img/Rectangle.svg">
                 <article class="hotel-card">
                   <h3 class="title"> Villas at Poco Diablo</h3>
                   <img src="img\HotelDiablo.png"  width="135" height="90"> 
                   <p class="category">Апартаменты</p>
+                  <div class= "star2">
+                  <img src="img/star.svg">
+                  </div>
                   <p class="level"><span class="visually-hidden">Гостиница 2 звезды</span></p>
                   <p class="rating">Рейтинг: 9.2</p> 
                   <p class="price">От 2000 Р.</p>
@@ -107,23 +126,23 @@
               </li>
             </ul>
           </section>
-          
+           <img src="img/Rectangle.svg">
           </main>
 
           <footer  class="main-footer">
+
             <p class = "hash">
-              #visitsedona
-              тел.:+7(495)666-01-66
+            #visitsedona <br>тел.:+7(495)666-01-66
             </p>
             <ul class="social-list">
               <li class="social-item">
-                <a class="social-link" href="#">Твиттер</a>
+              <a class="social-link twitter" href="#">Твиттер</a>
               </li>
               <li class="social-item">
-                <a class="social-link" href="#">Фейсбук</a>
+                <a class="social-link facebook" href="#">Фейсбук</a>
               </li>
               <li class="social-item">
-                <a class="social-link" href="#" >Ютуб</a>
+                <a class="social-link youtube" href="#" >Ютуб</a>
               </li>
             </ul>
             <p class="copyright">
