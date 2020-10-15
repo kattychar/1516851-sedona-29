@@ -186,13 +186,12 @@ img {
 	list-style: none;
 	padding:0;
 	margin:0;
-	
+
 }
 
 .feature-discription{
 	background-color: var(--features-blue);
 	color:var(--basic-white);
-	
 	flex-basis:400px;
 }
 
@@ -204,12 +203,20 @@ img {
 
 .features-text{
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	padding-bottom: 25px;
 
 }
 
 .feature-item.type-1{
 	display: flex;
+}
+
+.div2{
+	display: grid;
+	grid-row: 1;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -219,7 +226,6 @@ img {
 	padding-top: 47px;
 	padding-bottom: 22px;
 
-
 }
 
 .feature-item.type-1 .features-title{
@@ -228,8 +234,8 @@ img {
 }
 
 .feature-item.type-2{
-	display:inline-flex;
-	flex-basis: 400px;
+	margin: 0;
+	padding: 0;
 	padding-top: 60px;
 	text-align:center;
 	flex-grow: 1;
@@ -249,21 +255,123 @@ img {
 }
 
 .feature-item.type-3{
-	display: inline-flex;
-	flex-basis: 400px;
+	
 	background-color: var(--features3-grey);
-	padding-top:47px;
+	padding-top:37px;
 	text-align: center;
-	margin:0;
+	
 }
 
+/*Checkbox*/
+
+.checkbox{
+	background-color: var(--btn-book);	
+	width: 1200px;
+	height:217px;
+	
+	padding-left:72px;
+	list-style: none;
+	display:inline-flex;
+}
+
+.div1{
+	margin-right: 120px;
+}
+.checkbox-title{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: var(--basic-white);
+	
+	padding-bottom: 25px;
+	
+}
+
+.checkbox-list{
+	list-style: none;
+}
+
+input{
+	background-color: initial;
+    cursor: default;
+    appearance: checkbox;
+	margin-right: 17px;
+	margin-bottom: 25px;
+	border: initial;
+}
+
+label{
+	font-size: 14px;
+  	line-height: 21px;
+  	text-transform: uppercase;
+	color: var(--basic-white);
+	
+}
+
+/*Filter*/
+
+.filter-name{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: var(--basic-white);
+	margin-bottom: 10px;
+}
+
+.range-filter {
+  width: 316px;
+  
+}
+
+.price-controls{
+	width: 315px;
+	border: solid 2px white;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: var(--basic-white);
+  opacity: 0.3;
+  margin-top: 20px;
+
+}
+
+.range-controls .bar {
+  margin-top: 20px;
+  width: 70%;
+  height: 2px;
+  background: var(--basic-white);
+}
+
+
+.toggle {
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+  border-radius: 50%;
+  
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
 
 /*sort Hotels*/
 
 .sort{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
+	padding-left: 73px;
+	padding-right: 73px;
 }
 
 .sort-list.type-1{
@@ -367,7 +475,7 @@ img {
 }
 
 .star3{
-	width: 70px;
+	width: 75px;
 	background-image: url("../img/star.svg");
 	background-repeat: space;
 }
@@ -410,6 +518,7 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	
 }
 
 .booking-title{
@@ -417,16 +526,132 @@ img {
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 24px;
-	padding-top: 58px;
+	margin-top: 58px;
 	text-align: center;
 }
 
 .booking-intro{
+	margin-left: auto;
+	margin-right: auto;
 	color:var(--dark-gray);
 	font-size: 14px;
 	line-height: 21px;
 	width: 435px;
+	margin-bottom: 50px;
+}
+
+.form-title {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    width: 568px;
+    height: 86px;
+    background-color: var(--btn-book);
+}
+
+.form-name{
+    padding-top: 30px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: center;
+    color: var(--basic-white);
+}	
+   
+
+/*Form*/
+
+.appointment-form{
+	width: 568px;
+	position:relative;
+	margin-bottom: 55px;
+	left: 315px;
+	margin:0;
+	background-color: var(--basic-white);
+	box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.appointment-item{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	color: var(--basic-black);
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.appointment-item.date{
+	background-image: url("../img/calendar.svg");
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+.appointment-item label{
+	width: 125px;
+	padding-right:12px;
+	text-align: left;
+}
+
+.appointment-item input{
+	width: 346px;
+	font: inherit;
+ 	background-color: var(--light-grey);
+ 	box-sizing: border-box;
+ 	border: 0;
+ 	padding-top: 6px;
+ 	padding-bottom: 6px;
+ 	padding-left:13px;
+
+}
+
+.visiters{
+	display: flex;
+	margin-bottom: 54px;	
+
+}
+
+.appointment-item2{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	color: var(--basic-black);
+	padding-left: 55px;
+	padding-right: 55px
+}
+
+.appointment-item2 label{
+	width: 101px;
+	
+}
+
+.appointment-item2 input{
+	width: 114px;
+	font: inherit;
+ 	background-color: var(--light-grey);
+ 	box-sizing: border-box;
+ 	border: 0;
+ 	padding-top: 6px;
+ 	padding-bottom: 6px;
+ 	padding-left:13px;
+
+}
+
+.btn-form input{
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	color: var(--basic-white);
+	width: 458px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 	text-align: center;
+	background-color: var(--features-blue);
+	border:0;
+	font: "PT Sans", Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+
 }
 
 /*Footer*/

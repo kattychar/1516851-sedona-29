@@ -60,31 +60,31 @@
               </div>
               <img src="img\image.png" width="800" height="256" alt="mountains">
              </li>
-          
+            <div class=" div2">
             <li class = "feature-item type-2">
-               <div class="type2">
+               
                <img src="img/icon-1.svg" class="icon">
                <h3 class="features-title">Жилье</h3>
                <p class="features-text">Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
-              </div>
+              
             </li> 
            
             <li class="feature-item type-2">
-                <div class="type2">
+                
                 <img src="img/icon-3.svg" class="icon">
                 <h3 class="features-title">Еда</h3>
                 <p class="features-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-                </div>
+                
             </li>
          
             <li class="feature-item type-2">
-              <div class="type2">
+              
               <img src="img/icon-2.svg" class="icon">
               <h3 class="features-title">Сувениры</h3>
               <p class="features-text">Не только китайского,но и местного производства!</p>
-              </div>
+              
             </li>
-        
+            </div>
             <li class="feature-item type-1">
               <img src="img\image2.jpg "  width="800" height="256" alt="diablo">
               <div class="feature-discription">
@@ -93,7 +93,7 @@
               <p class="features-text">Да,по нему можно пройти! Если конечно<br>вы осмелитесь</p>
               </div>
             </li>
-         
+            <div class="div2">
             <li class="feature-item type-3" >
               <div class="type3">
               <h3 class= "features-title">Небольшая площадь</h3>
@@ -117,16 +117,49 @@
              <p class="features-text">Большинство едет в гранд каньон и толпится там</p>
              </div>
             </li>
+          </div>
           </ul>
        </section>
 
-       <section class="booking">
-         <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-         <p class="booking-title">Заинтересовались?</p>
-         <p class="booking-intro">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
-         <form class="form" action="">Поиск гостиницы в Седоне</form>
+        <section class="booking">
+          <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+          <p class="booking-title">Заинтересовались?</p>
+          <p class="booking-intro">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          <div class="form-title">
+            <a href="#" class="form-button">
+              <h2 class="form-name">Поиск гостиницы в седоне</h2>
+            </a>
+          </div>
+          
+        </section>
           <!--здесь будет карта-->
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_u0BSQX8x7uvZvW1cKeZuCPIIkXr6EcM&callback=initMap" async defer>
+             
+          </script>
          <div class="map">
+          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="appointment-item">
+              <label for="appointment-date">Дата заезда: </label>
+              <input id="appointment-date" type="date" name="date"  class="date" placeholder="17 апреля 2017">
+            </p>
+            <p class="appointment-item">
+              <label for="appointment-date">Дата выезда: </label>
+              <input id="appointment-date" type="date" name="date" class="date" value="2017-06-04">
+            </p>
+              <div class="visiters">
+                <p class="appointment-item2">
+                  <label for="appointment-human">Взрослые: </label>
+                  <input id="appointment-human" min="1" max="10" type="number" name="human" value="2">
+                </p>                                       
+                <p class="appointment-item2">
+                  <label for="appointment-child">Дети: </label>
+                  <input id="appointment-child" min="1" max="10" type="number" name="human" value="0">
+                </p>
+              </div>
+              <div class="btn-form">
+              <input type="submit" value="Найти">
+              </div>
+          </form>
            <img src="img/map.jpg" alt="Карта">
          </div>
        </section>
@@ -135,7 +168,7 @@
 
       <footer  class="main-footer">
         <p class = "hash">
-          #visitsedona <br>тел.:+7(495)666-01-66
+          #visitsedona <br>тел.:<tel>+7(495)666-01-66</tel>
         </p>
         <ul class="social-list">
           <li class="social-item">
