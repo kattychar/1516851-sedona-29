@@ -1,10 +1,25 @@
 (function() {
-	var buttonForm= document.querySelector('.form-button');
-	var form = document.querySelector('.appointment-form ');
+	const formButton = document.querySelector('.form-button');
+	const appointmentForm = document.querySelector('.appointment-form');
 
-	buttonForm.addEventListener('click', function (evt) {
-		evt.preventDefault();
-		form.classList.toggle('hidden');
-		form.classList.toggle('visible');
+	appointmentForm.style.top = '-100%';
+
+	const toggleAppointmentFormVisibility = () => {
+		if (document.querySelector('.appointment-form').style.top === '-100px') {
+			document.querySelector('.appointment-form').style.top === '0px';
+		} else {
+			document.querySelector('.appointment-form').style.top === '-100px'
+		}
 	}
+		/*
+		if (appointmentForm.style.top === '-100%') {
+			appointmentForm.style.top === '0';
+			alert ('Ку-ку');
+		} else {
+			appointmentForm.style.top === '-100%';
+		}
+	}
+*/
+	formButton.addEventListener('click',()=> toggleAppointmentFormVisibility);
+
 }());
