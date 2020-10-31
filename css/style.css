@@ -113,6 +113,7 @@ img {
 	width: 1200px;
 	height: 70px;
 	left: 40px;
+	margin: 0;
 }
 
 .site-item{
@@ -764,20 +765,17 @@ input:disabled:checked ~ .checkbox-indicator{
 .div-form{
 	overflow: hidden;
 	position: relative;
+	height:450px;
 	
 }
 
 .appointment-form{
 	position: absolute;
 	margin-left: 316px;
-	transition: all ease-in-out 0.6s;
-	overflow: hidden;
 	width: 457px;
     padding-top: 55px;
     padding-left: 55px;
     padding-right: 55px;
-    margin-left: auto;
-    margin-right: auto;
     font: inherit;
     font-size: 14px;
     font-weight: bold;
@@ -785,7 +783,7 @@ input:disabled:checked ~ .checkbox-indicator{
     text-align: left;
 	background-color: var(--basic-white);
 	box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
-	
+	transition: all ease-in-out 0.6s;
 }
 
 .form-body {
