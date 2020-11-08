@@ -8,7 +8,7 @@
   formButton.onclick = function () {
       if (clickCounter % 2 == 0){
 
-      	formAppointment.style.bottom = '13%';
+      	formAppointment.style.bottom = '33.5%';
       	clickCounter++;
 
     } else {
