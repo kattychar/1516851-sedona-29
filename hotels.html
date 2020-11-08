@@ -14,9 +14,9 @@
 
       <header class="main-header">
         <div class="logo">
-           <span class="visually-hidden">На главную</span>
-           <a href="index.html"><img src ="img/logo.svg" alt="logo"></a>
-          </div>
+          <span class="visually-hidden">На главную</span>
+          <a href="index.html"><img src ="img/logo.svg" alt="logo" width="138" height="70"></a>
+        </div>
         <nav class="main-nav">
           <ul class="site-list">
             <li class="site-item-left">
@@ -42,18 +42,18 @@
           <div class="wrapper-left">
             <fieldset class="form-fieldset">
               <legend class="checkbox-title">Инфраструктура:</legend>
-              <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox" checked>
+              <input id="checkbox1" class="checkbox-input" type="checkbox" checked>
+              <label for="checkbox1" class="checkbox-label">
                 <span class="checkbox-indicator"></span> 
                 Бассейн
               </label>
-              <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox"> 
+              <input id="checkbox2" class="checkbox-input" type="checkbox">
+              <label for="checkbox2" class="checkbox-label">
                 <span class="checkbox-indicator"></span>
                 Парковка
               </label>
-              <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox">
+              <input id="checkbox3" class="checkbox-input" type="checkbox">
+              <label for="checkbox3" class="checkbox-label">
                 <span class="checkbox-indicator"></span>
                 Wi-Fi
               </label>
@@ -61,18 +61,18 @@
 
             <fieldset class="form-fieldset">
               <legend class="checkbox-title">Тип жилья:</legend>
-              <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox" checked> 
+              <input id="checkbox4" class="checkbox-input" type="checkbox" checked>
+              <label for="checkbox4" class="checkbox-label">
                 <span class="checkbox-indicator"></span>
                 Гостиница
               </label>
-              <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox" checked> 
+              <input id="checkbox5" class="checkbox-input" type="checkbox" checked> 
+              <label for="checkbox5" class="checkbox-label">
                 <span class="checkbox-indicator"></span>
                 Мотель
               </label>
-              <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox" checked> 
+              <input id="checkbox6" class="checkbox-input" type="checkbox" checked> 
+              <label for="checkbox6" class="checkbox-label">
                 <span class="checkbox-indicator"></span>
                 Апартаменты
               </label>
@@ -91,13 +91,12 @@
                 <input class="price-input" type="text" name="max-price" value="ДО 3000">
               </label>
             </div>
-
             <div class="range-controls">
               <div class="scale">
                 <div class="bar"></div>
               </div>
-              <div class="toggle toggle-min" aria-label="Минимал"></div>
-              <div class="toggle toggle-max" aria-label="Максимум"></div>
+              <button class="toggle toggle-min" aria-label="Минимал"></button>
+              <button class="toggle toggle-max" aria-label="Максимум"></button>
             </div>
             <button class="filter-btn" type="submit">Показать</button>
           </div>
@@ -141,7 +140,7 @@
           <h2 class="visually-hidden">Результаты поиска</h2>
           <article class="hotel-card">
             <div class="result-photo">
-              <img src="img/Amara.png" alt="amara-hotel" width="135" height="90"> 
+              <img src="img/amara-hotel.png" alt="amara-hotel" width="135" height="90"> 
             </div>
             <div class="result-description">
               <h3 class="result-title"> Amara Resort & SPA </h3>
@@ -156,14 +155,14 @@
             </div>
             <div>
               <div class= "star4"></div>
-                <p class="rating">Рейтинг: 8,5</p>
-                <p class="level"><span class="visually-hidden">Гостиница 4 звезды</span></p>
+              <p class="rating">Рейтинг: 8,5</p>
+              <p class="level"><span class="visually-hidden">Гостиница 4 звезды</span></p>
             </div>
           </article>
 
           <article class="hotel-card">
             <div class="result-photo">
-              <img src="img/HotelDesert.png" alt="Hotel-Desert" width="135" height="90"> 
+              <img src="img/hotel-desert.png" alt="Hotel-Desert" width="135" height="90"> 
             </div>
             <div class="result-description">
               <h3 class="result-title"> Desert Quail INN </h3>
@@ -185,7 +184,7 @@
 
           <article class="hotel-card">
             <div class="result-photo">
-              <img src="img/HotelDiablo.png" alt="HotelDiablo" width="135" height="90"> 
+              <img src="img/hotel-diablo.png" alt="HotelDiablo" width="135" height="90"> 
             </div>
             <div class="result-description">
               <h3 class="result-title"> Villas at Poco Diablo </h3>
